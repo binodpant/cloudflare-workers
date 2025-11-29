@@ -46,7 +46,7 @@ export default {
 
       // Configure OpenAI client with Cloudflare AI Gateway
       const host = "https://gateway.ai.cloudflare.com";
-	  const endpoint = "/v1/88abdb2c13d48a821039d51768f92c6e/ai-edu-backend/compat";
+	  const endpoint = "/v1/88abdb2c13d48a821039d51768f92c6e/ai-edu-backend/openai";
       
       const client = new OpenAI({
         apiKey: env.OPENAI_API_KEY,
