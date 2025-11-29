@@ -6,6 +6,9 @@ export interface Env {
   GATEWAY_NAME: string;
 }
 
+/**
+ * Worker that talks to OpenAI completions endpoint using AI Gateway
+ */
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     // Handle CORS preflight
